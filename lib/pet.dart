@@ -1,7 +1,8 @@
 // lib/pet.dart
+// lib/pet.dart
 class Pet {
   String name;
-  String type; // e.g. Dog, Cat, Bird
+  String type;
 
   Pet({required this.name, required this.type});
 
