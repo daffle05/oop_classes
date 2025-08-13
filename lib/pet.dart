@@ -1,5 +1,3 @@
-// lib/pet.dart
-// lib/pet.dart
 class Pet {
   String name;
   String type;
