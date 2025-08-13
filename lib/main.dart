@@ -1,6 +1,7 @@
 import 'book.dart';
 import 'student.dart';
 import 'pet.dart';
+import 'House.dart';
 
 void main() {
   var b1 = Book(title: '1984', author: 'George Orwell');
@@ -11,4 +12,7 @@ void main() {
 
   var p3 = Pet(name: 'Brownie', type: 'Aspin');
   p3.speak();
+
+  var H4 = House(address: 'Naval', numberOfRooms: int.parse('5'));
+  H4.printDetails();
 }
